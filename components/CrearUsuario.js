@@ -16,6 +16,7 @@ const CrearUsuario = () => {
     const validarClickAfuera = e => {
         if (!areaEntrada.current.contains(e.target)) {
             console.log("Area de entrada afuera");
+            setUsuario({nombre: '', email: '', telefono: ''})
         } else {
             console.log("Area de entrada adentro");
         }   
