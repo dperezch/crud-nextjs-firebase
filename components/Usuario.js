@@ -3,7 +3,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 import moment from "moment/moment";
 import { useContext } from "react";
-import { ContextUsuario } from "@/pages/ContextUsuario";
+import { ContextUsuario } from "@/components/ContextUsuario";
 import { db } from "@/firebase";
 import { deleteDoc, doc } from "firebase/firestore";
 

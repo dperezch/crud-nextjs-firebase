@@ -1,7 +1,7 @@
 import CrearUsuario from '@/components/CrearUsuario'
 import ListaUsuarios from '@/components/ListaUsuarios'
 import styles from '@/styles/Home.module.css'
-import { ContextUsuario } from './ContextUsuario'
+import { ContextUsuario } from '../components/ContextUsuario'
 import { useState } from 'react';
 
 export default function Home() {

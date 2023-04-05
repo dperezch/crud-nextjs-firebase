@@ -1,5 +1,5 @@
 import { db } from "@/firebase";
-import { ContextUsuario } from "@/pages/ContextUsuario";
+import { ContextUsuario } from "@/components/ContextUsuario";
 import { Button, TextField, Tooltip } from "@mui/material";
 import {
   addDoc,
